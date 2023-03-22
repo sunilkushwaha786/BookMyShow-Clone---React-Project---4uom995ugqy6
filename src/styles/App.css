@@ -1,0 +1,62 @@
+.genres-content {
+    display: flex;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+        display: block;
+        margin: auto;
+}
+
+#root {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#main {
+    width: 100%;
+}
+
+.valdi {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.valdi > p {
+    font-size: 1.5rem;
+    margin: 10px;
+    height: 50px;
+}
+
+/* (min-width:375px) and  */
+
+@media only screen and (max-width: 768px) {
+    .genres-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .valdi {
+        width: 15rem;
+    }
+    
+    .valdi > p {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+/* (min-width:280px) and  */
+@media only screen and (min-width:820px) and (max-width:1024px) {
+    .genres-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

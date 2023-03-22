@@ -1,0 +1,19 @@
+.wraper-card {
+    display: flex;
+    margin: 10px;
+    box-shadow: 0 0 3px 3px rgb(125, 184, 246);
+}
+
+.wraper-card > img {
+    width: 150px;
+    margin: 5px;
+}
+
+.wrapper-wishlist {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.wrap-wishlist-data {
+    margin: 5px;
+}
