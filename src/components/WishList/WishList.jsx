@@ -9,6 +9,7 @@ export function WishList() {
   } else {
     showWishList = JSON.parse(localStorage.getItem("wishlist"));
   }
+  
   const createWishList = (arr) => {
     if (arr.length === 0) {
       return <h1>No data added to Wishlist</h1>;

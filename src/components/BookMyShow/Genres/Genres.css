@@ -1,6 +1,6 @@
 li {
-    list-style: none;
-    font-size: 1.2rem;
+    /* list-style: none; */
+    font-size: 1rem;
     margin: 10px;
     cursor: pointer;
 }
@@ -10,7 +10,7 @@ li:hover {
     font-size: 1.2rem;
     margin: 10px;
     cursor: pointer;
-    box-shadow: 0 0 8px 4px white;
+    box-shadow: 0 0 8px 4px rgb(180, 59, 59);
     background-color: white;
 }
 
@@ -27,7 +27,8 @@ h2 {
     border: 1px solid black;
     position: fixed;
     height: 86vh;
-    background-color: rgb(53, 212, 190);
+    background-color: rgb(251, 251, 251);
+    border-radius: 2px;
 }
 /* (min-width:375px) and  */
 
@@ -46,7 +47,7 @@ h2 {
     }
 
     li:hover {
-        font-size: 0.8rem;
+        /* font-size: 0.8rem; */
         margin: 3px;
     }
 

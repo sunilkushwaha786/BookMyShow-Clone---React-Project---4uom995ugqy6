@@ -117,7 +117,7 @@ export function UserSignUpForm(props) {
         {passwordFlag && <div className="warning">Please Enter User Name</div>}
         <button type="submit">Sign Up</button>
       </form>
-      <p className="account-check" onClick={loginFunction}>
+      <p className="account-check"  onClick={loginFunction}>
         Already have an account? Login
       </p>
     </div>

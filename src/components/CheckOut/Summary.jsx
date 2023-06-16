@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./CheckOut.css";
 
 export function Summary(props) {
+
+  // const [gst, setGst] = useState(totalTicketPrice * 0.05);
   const totalTicketPrice =
     Number(props.BookingDetails.price) * Number(props.BookingDetails.noSeats);
   const tax =  (totalTicketPrice * 0.0175).toFixed(2);
+
+
+
   return (
     <div className="summary-slip">
       <div className="wraper-div">
@@ -33,6 +38,9 @@ export function Summary(props) {
         <div className="eachTicket">
           <span>Convenience Fee(1.75%)</span>
           <span>&#8377; {tax}</span>
+        </div>
+        <div>
+
         </div>
         <div className="eachTicket">
           <span>Sub total</span>

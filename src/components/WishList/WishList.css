@@ -1,7 +1,7 @@
 .wraper-card {
     display: flex;
     margin: 10px;
-    box-shadow: 0 0 3px 3px rgb(125, 184, 246);
+    box-shadow: 0 0 3px 3px rgb(178, 71, 71);
 }
 
 .wraper-card > img {

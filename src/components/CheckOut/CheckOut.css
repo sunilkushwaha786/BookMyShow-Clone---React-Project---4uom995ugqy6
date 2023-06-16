@@ -1,6 +1,9 @@
 .summary-slip {
     border: 1px solid black;
     height: max-content;
+    /* color: red; */
+    background-color: beige;
+    border-radius: 5px;
 }
 
 .eachTicket {
